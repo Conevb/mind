@@ -1,14 +1,24 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.btn.btn-primary{
+  color: $white;
+}
+
 .top {
+  overflow: hidden;
+
   .search-form {
-    min-width: 300px;
+    width: 350px;
+
+    .input-group-lg>.form-control{
+      font-size: .8rem;
+    }
   }
 
   .account-links {
     position: relative;
     width: 320px;
-    height: 90px;
+    height: 96px;
     background: $purple;
 
     &::before,
@@ -24,7 +34,7 @@
       left: 0;
       transform: translateX(-100%);
       width: 0;
-      border-width: 0 0 90px 50px;
+      border-width: 0 0 96px 50px;
       border-color: transparent transparent $purple transparent;
       @include media-breakpoint-down(sm){
         width: 100%;
@@ -34,11 +44,52 @@
     &::after {
       right: 0;
       transform: translateX(100%);
-      border-width: 90px 50px 0 0;
+      border-width: 96px 50px 0 0;
       border-color: $purple transparent transparent transparent;
       @include media-breakpoint-down(sm){
         width: 100%;
       }
+    }
+  }
+}
+
+.top-categories {
+  .card-header{
+    border-bottom: 1px solid theme_color("$light");
+  }
+  .card-body {
+    padding: 0;
+
+    .list-group-item {
+      border: none;
+      font-weight: bold;
+      padding-top: ($spacer);
+      padding-bottom: ($spacer);
+
+      &:hover {
+        background-color: theme_color("primary");
+      }
+    }
+  }
+}
+
+#carousel{
+  .carousel-caption{
+    top: 50%;
+    bottom: unset;
+    transform: translateY(-50%);
+    left: 8%;
+    right: unset;
+    width: 210px;
+    text-align: left;
+
+    h3{
+      font-size: 3rem;
+      font-weight: normal;
+    }
+
+    p{
+      font-size: .9rem;
     }
   }
 }

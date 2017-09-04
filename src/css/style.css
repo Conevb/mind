@@ -2597,7 +2597,7 @@ tbody.collapse.show {
   margin-bottom: 0;
   background-color: #62BFC4;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  color: #e9ecef; }
+  color: #f8f9fa; }
   .card-header:first-child {
     border-radius: calc(0 - 1px) calc(0 - 1px) 0 0; }
 
@@ -5661,3 +5661,15 @@ a.text-dark:focus, a.text-dark:hover {
   .home-products .card .card-text {
     color: #a2a9b1;
     font-size: .8rem; }
+
+footer h4 {
+  color: #fff; }
+
+footer a {
+  color: #868e96; }
+  footer a:hover {
+    color: #000; }
+
+.copyright {
+  background-color: #212529;
+  color: #868e96; }

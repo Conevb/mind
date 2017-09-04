@@ -91,5 +91,23 @@
     p{
       font-size: .9rem;
     }
+
+    @include media-breakpoint-down(md){
+      left: 50%;
+      top: unset;
+      bottom: 50%;
+      width: 95%;
+      transform: translate(-50%, 50%) scale(.7, .7);
+      padding: $spacer $spacer * 1.5;
+      background-color: rgba(theme_color("light"), .9);
+
+      h3{
+        font-size: 2.2rem;
+      }
+
+      p, .btn{
+        font-size: 1.2rem;
+      }
+    }
   }
 }

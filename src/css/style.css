@@ -5621,3 +5621,16 @@ a.text-dark:focus, a.text-dark:hover {
     font-weight: normal; }
   #carousel .carousel-caption p {
     font-size: .9rem; }
+  @media (max-width: 991px) {
+    #carousel .carousel-caption {
+      left: 50%;
+      top: unset;
+      bottom: 50%;
+      width: 95%;
+      transform: translate(-50%, 50%) scale(0.7, 0.7);
+      padding: 1rem 1.5rem;
+      background-color: rgba(248, 249, 250, 0.9); }
+      #carousel .carousel-caption h3 {
+        font-size: 2.2rem; }
+      #carousel .carousel-caption p, #carousel .carousel-caption .btn {
+        font-size: 1.2rem; } }

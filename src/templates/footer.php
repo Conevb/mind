@@ -2,7 +2,7 @@
 <footer class="bg-dark">
 	<div class="container">
 		<div class="row text-center text-lg-left py-4">
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-md-3">
 				<h4>Meni</h4>
 				<ul class="list-unstyled">
 					<li><a href="#">Početna</a></li>
@@ -10,7 +10,7 @@
 					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-md-3">
 				<h4>Nalog</h4>
 				<ul class="list-unstyled">
 					<li><a href="#">Napravi nalog</a></li>
@@ -18,13 +18,13 @@
 					<li><a href="#">Lista zelja</a></li>
 				</ul>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-md-3">
 				<h4>Podrška</h4>
 				<ul class="list-unstyled">
 					<li><a href="#">Kontaktirajte nas</a></li>
 				</ul>
 			</div>
-			<div class="col-12 col-lg-3">
+			<div class="col-12 col-md-3">
 				<h4>Kontakt</h4>
 				<ul class="list-unstyled">
 					<li><a href="#">MIND Plus</a></li>

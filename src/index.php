@@ -21,7 +21,7 @@
 					</div>
 
 					<!-- Carousel -->
-					<div class="col-lg-9 mt-4 mt-md-0">
+					<div class="col-lg-9 mt-4 mt-lg-0">
 						<div id="carousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -65,20 +65,23 @@
 
 		<!-- Banners -->
 		<div class="container py-2">
-			<div class="row">
-				<div class="col-12 col-md-4 banner mt-4"><img src="images/banners-1.jpg" alt="" class="img-fluid">
+			<div class="row justify-content-center">
+				<div class="col-9 col-md-7 col-lg-4 banner mt-4">
+					<img src="images/banners-1.jpg" alt="" class="img-fluid">
 					<div class="banner-caption">
 						<h5 class="text-white h6">Geogre Forman</h5>
 						<p class="font-weight-bold">GRP4800R 4-in-1 Evolve Grill</p>
 						<a href="" class="btn btn-outline-light">Kupi odmah</a></div>
 				</div>
-				<div class="col-12 col-md-4 banner mt-4"><img src="images/banners-2.jpg" alt="" class="img-fluid">
+				<div class="col-9 col-md-7 col-lg-4 banner mt-4">
+					<img src="images/banners-2.jpg" alt="" class="img-fluid">
 					<div class="banner-caption">
 						<h5 class="text-white h6">Geogre Forman</h5>
 						<p class="font-weight-bold">1500-Watt Turbo Steam Master Iron</p>
 						<a href="" class="btn btn-outline-light">Kupi odmah</a></div>
 				</div>
-				<div class="col-12 col-md-4 banner mt-4"><img src="images/banners-3.jpg" alt="" class="img-fluid">
+				<div class="col-9 col-md-7 col-lg-4 banner mt-4">
+					<img src="images/banners-3.jpg" alt="" class="img-fluid">
 					<div class="banner-caption">
 						<h5 class="text-white h6">Geogre Forman</h5>
 						<p class="font-weight-bold">48-Inch 1080p 60Hz Smart LED TV</p>
@@ -107,7 +110,7 @@
 			<div class="tab-content home-products" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="pills-new" role="tabpanel" aria-labelledby="#pills-new-tab">
 					<div class="row">
-						<div class="col-12 col-lg-3">
+						<div class="col-12 col-sm-6 col-lg-3">
 							<div class="card"><img src="images/product.png" alt="" class="card-img-top">
 								<div class="card-body">
 									<h5 class="card-title h6"><a href="#">Nutri Ninja Blender Duo with Auto-iQ (BL642)</a></h5>

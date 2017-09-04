@@ -13,7 +13,7 @@
 <body>
 <div class="d-flex flex-column">
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top order-lg-3">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top order-lg-3">
 		<div class="container">
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
 				<span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
 								</span>
 					</div>
 				</form>
-				<div class="account-links px-2 mx-auto d-flex align-items-center justify-content-between order-2 order-lg-3">
+				<div class="account-links px-4 mx-auto d-flex align-items-center justify-content-around order-2 order-lg-3">
 					<a href="#" class="text-white">Prijavi se</a>
 					<a href="#" class="text-white">Registruj se</a>
 					<a href="#" class="text-white">Lista zelja</a>

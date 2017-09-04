@@ -111,3 +111,15 @@
     }
   }
 }
+
+.banner{
+  position: relative;
+
+  .banner-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    width: 40%;
+  }
+}

@@ -1,0 +1,19 @@
+.top-categories {
+  .card-header{
+    border-bottom: 1px solid theme_color("$light");
+  }
+  .card-body {
+    padding: 0;
+
+    .list-group-item {
+      border: none;
+      font-weight: bold;
+      padding-top: ($spacer);
+      padding-bottom: ($spacer);
+
+      &:hover {
+        background-color: theme_color("primary");
+      }
+    }
+  }
+}

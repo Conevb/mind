@@ -1,0 +1,18 @@
+footer{
+  h4{
+    color: $white;
+  }
+
+  a{
+    color: $gray-600;
+
+    &:hover{
+      color: $black;
+    }
+  }
+}
+
+.copyright{
+  background-color: $gray-900;
+  color: $gray-600;
+}

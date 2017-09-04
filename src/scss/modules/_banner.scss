@@ -1,0 +1,15 @@
+.banner{
+  position: relative;
+
+  .banner-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    width: 35%;
+
+    @include media-breakpoint-up(lg){
+      width: 40%;
+    }
+  }
+}

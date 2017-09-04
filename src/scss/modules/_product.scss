@@ -1,0 +1,13 @@
+.home-products .card{
+  border: 0;
+
+  .card-body{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-text{
+    color: lighten($gray-700, 35);
+    font-size:.8rem;
+  }
+}

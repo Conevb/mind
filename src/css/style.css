@@ -5684,6 +5684,18 @@ a.text-dark:focus, a.text-dark:hover {
 #product-qty {
   width: 80px; }
 
+.product-details .nav-link.active {
+  background: transparent !important;
+  border: 1px solid #ced4da;
+  border-left: 3px solid #495057;
+  border-right: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #495057; }
+
+.product-details .tab-content {
+  border-top: 1px solid #ced4da; }
+
 footer h4 {
   color: #fff; }
 

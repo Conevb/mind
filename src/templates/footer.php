@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-dark">
+<footer class="bg-dark mt-4">
 	<div class="container">
 		<div class="row text-center text-lg-left py-4">
 			<div class="col-12 col-md-3">

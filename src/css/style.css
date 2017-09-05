@@ -5557,8 +5557,14 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.btn, .close {
+  cursor: pointer; }
+
 .btn.btn-primary {
   color: #fff; }
+  .btn.btn-primary:hover {
+    background-color: #8482CB;
+    border-color: #8482CB; }
 
 .btn.btn-round {
   width: 40px;
@@ -5568,6 +5574,9 @@ a.text-dark:focus, a.text-dark:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center; }
+
+.navbar {
+  background-color: #f8f9fa; }
 
 .top {
   overflow: hidden; }
@@ -5671,6 +5680,9 @@ a.text-dark:focus, a.text-dark:hover {
   .home-products .card .card-text {
     color: #a2a9b1;
     font-size: .8rem; }
+
+#product-qty {
+  width: 80px; }
 
 footer h4 {
   color: #fff; }

@@ -13,7 +13,7 @@
 <body>
 <div class="d-flex flex-column">
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top order-lg-3">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top order-lg-3">
 		<div class="container">
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
 				<span class="navbar-toggler-icon"></span>
@@ -59,7 +59,10 @@
 	<header class="top bg-light order-lg-2">
 		<div class="container">
 			<div class="d-flex flex-wrap justify-content-between">
+				<!-- Logo -->
 				<img src="images/logo.png" alt="Logo" class="mx-auto mx-lg-0 py-4 align-self-center order-1">
+
+				<!-- Search form -->
 				<form action="" class="mx-auto py-4 align-self-center search-form order-3 order-lg-2">
 					<div class="input-group input-group-lg">
 						<input type="text" class="form-control" placeholder="Pretraga">
@@ -68,11 +71,15 @@
 								</span>
 					</div>
 				</form>
+
+				<!-- Avvount links -->
 				<div class="account-links px-4 mx-auto d-flex align-items-center justify-content-around order-2 order-lg-3">
-					<a href="#" class="text-white">Prijavi se</a>
-					<a href="#" class="text-white">Registruj se</a>
+					<a href="#" class="text-white" data-toggle="modal" data-target="#loginModal">Prijavi se</a>
+					<a href="register.php" class="text-white">Registruj se</a>
 					<a href="#" class="text-white">Lista zelja</a>
 				</div>
+
+				<?php require_once "login-modal.php"; ?>
 			</div>
 		</div>
 	</header>

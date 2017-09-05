@@ -24,8 +24,10 @@ gulp.task('serve', ['sass'], function() {
         proxy: "localhost/mind/src"
     });
 
+    gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*/*.scss'], ['sass']);
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/*/*.php").on('change', browserSync.reload);
+    gulp.watch("src/*.php").on('change', browserSync.reload);
 });
 
 // Move Fonts to src/fonts

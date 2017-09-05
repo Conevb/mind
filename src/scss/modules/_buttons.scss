@@ -1,5 +1,14 @@
+.btn, .close{
+  cursor: pointer;
+}
+
 .btn.btn-primary{
   color: $white;
+
+  &:hover{
+    background-color: $purple;
+    border-color: $purple;
+  }
 }
 
 .btn.btn-round{

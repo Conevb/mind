@@ -113,7 +113,7 @@
 						<div class="col-12 col-sm-6 col-lg-3">
 							<div class="card"><img src="images/product.png" alt="" class="card-img-top">
 								<div class="card-body">
-									<h5 class="card-title h6"><a href="#">Nutri Ninja Blender Duo with Auto-iQ (BL642)</a></h5>
+									<h5 class="card-title h6"><a href="single-product.php">Nutri Ninja Blender Duo with Auto-iQ (BL642)</a></h5>
 									<p class="card-text">Here you can find something more than just home electronics;
 										you can find real comfort and satisfaction here!</p>
 									<div class="h5 text-primary">250,00 din</div>
@@ -130,7 +130,7 @@
 					<div class="col-12 col-lg-3">
 						<div class="card"><img src="images/product.png" alt="" class="card-img-top">
 							<div class="card-body">
-								<h5 class="card-title h6"><a href="#">Nutri Ninja Blender Duo with Auto-iQ (BL642)</a></h5>
+								<h5 class="card-title h6"><a href="single-product.php">Nutri Ninja Blender Duo with Auto-iQ (BL642)</a></h5>
 								<p class="card-text">Here you can find something more than just home electronics;
 									you can find real comfort and satisfaction here!</p>
 								<div class="h5 text-primary">250,00 din</div>

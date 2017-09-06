@@ -11,17 +11,16 @@
 
 		<!-- Big image -->
 		<div class="col-12 col-md-6 col-lg-5">
-			<img src="<?php echo base_url(); ?>assets/images/product-image.png" class="img-fluid" alt="">
+			<img src="<?php echo base_url(); ?>uploads/<?php echo $product['product_slug']; ?>/product-image.png" class="img-fluid" alt="">
 		</div>
 
 		<!-- Info -->
 		<div class="col-12 col-md-6">
-			<h1 class="h4">George Foreman GRP4800R 4-in-1 Evolve Grill</h1>
-			<div class="h5 text-primary my-4">250,00 din</div>
+			<h1 class="h4"><?php echo $product['product_title']; ?></h1>
+			<div class="h5 text-primary my-4"><?php echo $product['price']; ?> din</div>
 			<hr>
-			<form class="form-inline ml-3 mb-4" method="post">
-				<input type="hidden" name="product-title" value="George Foreman GRP4800R 4-in-1 Evolve Grill">
-				<input type="hidden" name="product-price" value="250,00">
+			<?php echo form_open('cart/add', array('method'=>'post', 'class'=>'form-inline ml-3 mb-4 add-to-cart')); ?>
+				<input type="hidden" name="product-id" value="<?php echo $product['id']; ?>">
 				<div class="form-group mr-4">
 					<label for="product-qty" class="text-muted">Količina:</label>
 					<input type="number" class="form-control ml-2" id="product-qty" name="product-qty" value="1" min="1">
@@ -44,7 +43,7 @@
 		<div class="col">
 			<div class="tab-content py-3" id="productTabContent">
 				<div class="tab-pane fade show active" id="details" role="tabpanel" aria-labelledby="detailsTab">
-					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam animi asperiores aspernatur assumenda, deleniti eaque enim eveniet, fuga maxime molestias necessitatibus nisi rerum sequi ut, velit veritatis! Accusamus, cumque.</p>
+					<p class="text-muted"><?php echo $product['details']; ?></p>
 				</div>
 			</div>
 		</div>

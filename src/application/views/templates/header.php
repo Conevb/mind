@@ -21,14 +21,7 @@
 			<div class="collapse navbar-collapse w-75" id="mainMenu">
 				<ul class="navbar-nav text-uppercase font-weight-bold">
 					<li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Početna</a></li>
-					<li class="nav-item dropdown">
-						<a href="#" class="nav-link dropdown-toggle" id="storeDropdown" data-toggle="dropdown">Prodavnica</a>
-						<div class="dropdown-menu" aria-labelledby="storeDropdown">
-							<a href="#" class="dropdown-item">Link</a>
-							<a href="#" class="dropdown-item">Link</a>
-							<a href="#" class="dropdown-item">Link</a>
-						</div>
-					</li>
+					<li class="nav-item"><a href="<?php echo base_url(); ?>proizvodi" class="nav-link">Prodavnica</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
 				</ul>
 			</div>

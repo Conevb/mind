@@ -1,10 +1,10 @@
 <div class="container">
 	<div class="row">
-		<div class="col-3"></div>
-		<div class="col-9">
+		<div class="col-3 d-none"></div>
+		<div class="col-12">
 			<div class="row">
 				<?php foreach($products as $product): ?>
-					<div class="col-4 py-2">
+					<div class="col-12 col-sm-6 col-md-4 py-2">
 						<div class="card"><img src="<?php echo base_url().'uploads/'.$product['product_slug'].'/thumbnails/product-small.png' ?>" alt="" class="card-img-top">
 							<div class="card-body">
 								<h5 class="card-title h6"><a href="<?php echo base_url().'proizvodi/'.$product['category_slug'].'/'.$product['product_slug']; ?>"><?php echo $product['product_title']; ?></a></h5>

@@ -6,7 +6,7 @@ const sass        = require('gulp-sass');
 gulp.task('sass', function() {
     return gulp.src(['src/assets/scss/*.scss'])
         .pipe(sass())
-        .pipe(gulp.dest("src/css"))
+        .pipe(gulp.dest("src/assets/css"))
         .pipe(browserSync.stream());
 });
 

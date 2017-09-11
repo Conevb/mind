@@ -1,0 +1,16 @@
+#categories-sidebar{
+  border: 1px solid $gray-300;
+
+  .card{
+    border: none;
+  }
+
+  .card-header{
+    background-color: $white;
+    border: none;
+
+    h5{
+      font-size: 1.1rem;
+    }
+  }
+}

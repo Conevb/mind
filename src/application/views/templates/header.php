@@ -26,15 +26,9 @@
 				</ul>
 			</div>
 
-			<!-- Cart Button -->
-			<div class="dropdown show">
-				<a href="#" class="btn btn-link dropdown-toggle" role="button" id="cartDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fa fa-shopping-cart text-primary mr-2"></i>Korpa
-				</a>
-
-				<div class="dropdown-menu" aria-labelledby="#cartDropdown">
-					<a href="#" class="dropdown-item">Link</a>
-				</div>
+			<!-- Cart Dropdown -->
+			<div class="dropdown show" id="cart-dropdown">
+				<?php $this->load->view('templates/cart-dropdown'); ?>
 			</div>
 		</div>
 	</nav>

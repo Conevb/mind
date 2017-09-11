@@ -20,9 +20,7 @@ class Cart extends CI_Controller{
 		);
 
 		if($this->cart->insert($data)){
-			echo 'radi';
-		}else {
-			echo "greska";
+			$this->load->view('templates/cart-dropdown');
 		}
 	}
 }

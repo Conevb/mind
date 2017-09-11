@@ -1,7 +1,51 @@
 <div class="container">
 	<div class="row">
-		<div class="col-3 d-none"></div>
-		<div class="col-12">
+		<div class="col-3 d-none d-lg-block">
+			<h4 class="mb-4">Kategorije</h4>
+			<div id="categories-sidebar" class="test" role="tablist">
+				<div class="card">
+					<div class="card-header" role="tab" id="led-rasveta-heading">
+						<h5 class="mb-0">
+							<a class="d-flex justify-content-between" data-toggle="collapse" href="#led-rasveta" aria-expanded="true" aria-controls="led-rasveta">
+								LED Rasveta
+								<i class="fa fa-chevron-down"></i>
+							</a>
+						</h5>
+					</div>
+
+					<div id="led-rasveta" class="collapse show" role="tabpanel" aria-labelledby="led-rasveta-heading" data-parent="#categories-sidebar">
+						<div class="card-body">
+							<ul class="nav flex-column">
+								<li class="nav-item"><a href="#" class="nav-link">LED Sijalice</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">LED Trake</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Rozetne</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" role="tab" id="elektromaterijal-heading">
+						<h5 class="mb-0">
+							<a class="d-flex justify-content-between" data-toggle="collapse" href="#elektromaterijal" aria-expanded="true" aria-controls="led-rasveta">
+								Elektromaterijal
+								<i class="fa fa-chevron-down"></i>
+							</a>
+						</h5>
+					</div>
+
+					<div id="elektromaterijal" class="collapse show" role="tabpanel" aria-labelledby="elektromaterijal-heading" data-parent="#categories-sidebar">
+						<div class="card-body">
+							<ul class="nav flex-column">
+								<li class="nav-item"><a href="#" class="nav-link">LED Sijalice</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">LED Trake</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Rozetne</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-lg-9">
 			<div class="row">
 				<?php foreach($products as $product): ?>
 					<div class="col-12 col-sm-6 col-md-4 py-2">

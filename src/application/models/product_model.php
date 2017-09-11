@@ -16,8 +16,8 @@ class Product_model extends CI_Model{
 
 	public function get_product_by_slug($slug){
 		$this->db->where('product_slug', $slug);
-		$this->db->join('p_categories', 'products.category_id = p_categories.id');
-		$query = $this->db->get('products');
+		$this->db->join('products', 'products.category_id = p_categories.id');
+		$query = $this->db->get('p_categories');
 		return $query->row_array();
 	}
 

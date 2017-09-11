@@ -11,9 +11,15 @@ $('form.add-to-cart').submit(function(e){
             qty: qty
         },
         success: function(data){
-            alert(data);
+            update_view(data);
         }
     });
 
+
+
     e.preventDefault();
 });
+
+function update_view(data){
+    $("#cart-dropdown").html(data);
+}

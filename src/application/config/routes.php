@@ -57,6 +57,9 @@ $route['proizvodi/(:any)/(:any)'] = 'products/index/$1/$2';
 $route['cart/(:any)'] = 'cart/$1';
 $route['korpa'] = 'cart/index';
 
+$route['admin'] = 'admin/index';
+$route['admin/proizvodi/dodaj'] = 'products/add';
+
 $route['(:any)'] = 'pages/view/$1';
 
 $route['default_controller'] = 'pages/view';

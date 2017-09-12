@@ -23,7 +23,7 @@
 				<div id="carousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="images/slide-1.jpg" alt="" class="d-block w-100">
+							<img src="<?php echo base_url(); ?>assets/images/slide-1.jpg" alt="" class="d-block w-100">
 							<div class="carousel-caption d-block text-dark">
 								<h3>IPhone 7</h3>
 								<p>From $37.41/mo. with the iPhone Upgrade Program. Or pay now from $769.</p>
@@ -31,7 +31,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="images/slide-2.jpg" alt="" class="d-block w-100">
+							<img src="<?php echo base_url(); ?>assets/images/slide-2.jpg" alt="" class="d-block w-100">
 							<div class="carousel-caption d-block text-dark">
 								<h3>Sumsung</h3>
 								<p>New Gear VR & Screen Replacement Offer - Rs 50,900 + Rs 1990* + Rs. 990*</p>
@@ -39,7 +39,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="images/slide-3.jpg" alt="" class="d-block w-100">
+							<img src="<?php echo base_url(); ?>assets/images/slide-3.jpg" alt="" class="d-block w-100">
 							<div class="carousel-caption d-block text-dark">
 								<h3>Mavic Pro</h3>
 								<p>FLIGHT PERFORMANCE Up to 27 minutes[1] of flight. 40mph (65kph) in Sport Mode</p>

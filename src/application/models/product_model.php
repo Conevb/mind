@@ -28,6 +28,11 @@ class Product_model extends CI_Model{
 		return $query->result_array();
 	}
 
+	public function get_categories(){
+		$query = $this->db->get('p_categories');
+		return $query->result_array();
+	}
+
 	public function get_category_by_slug($slug){
 		$this->db->where('category_slug', $slug);
 		$query = $this->db->get('p_categories');

@@ -29,4 +29,12 @@ class Products extends CI_Controller{
 			$this->load->view('templates/footer');
 		}
 	}
+
+	public function add(){
+		$data['categories'] = $this->product_model->get_categories();
+		$this->load->view('admin/header');
+		$this->load->view('admin/sidebar');
+		$this->load->view('admin/add-product', $data);
+		$this->load->view('admin/footer');
+	}
 }
